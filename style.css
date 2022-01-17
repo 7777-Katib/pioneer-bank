@@ -1,0 +1,44 @@
+body {
+    padding: 100px;
+}
+
+.bank-title {
+    text-align: center;
+}
+
+.submit-area {
+    border: 10px solid rgb(255, 251, 251);
+    box-shadow: 5px 5px 20px rgba(112, 109, 109, 0.767);
+    padding: 40px;
+}
+
+.katib {
+    width: 1250px;
+    margin-bottom: 10px;
+
+}
+
+.katib:hover {
+    box-shadow: 0px 0px 1px 1px rgba(68, 125, 133, 0.63);
+
+}
+
+.btn {
+    border-radius: 10px;
+    background-color: rgb(57, 136, 57);
+    color: whitesmoke;
+    width: 80px;
+}
+
+.btn:hover {
+    background-color: rgb(3, 102, 3);
+}
+
+.submit-area {
+    margin-top: 50px;
+
+}
+
+.piku {
+    margin-bottom: 20px;
+}

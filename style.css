@@ -13,6 +13,7 @@ body {
 }
 
 .katib {
+    display: inline-block;
     width: 1250px;
     margin-bottom: 10px;
 
@@ -27,7 +28,7 @@ body {
     border-radius: 10px;
     background-color: rgb(57, 136, 57);
     color: whitesmoke;
-    width: 80px;
+    width: 100px;
 }
 
 .btn:hover {
@@ -35,10 +36,58 @@ body {
 }
 
 .submit-area {
+    display: block;
     margin-top: 50px;
+
 
 }
 
 .piku {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+#transaction {
+    display: none;
+
+}
+
+.deposit {
+    background-color: indianred;
+    margin: 0px 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+
+
+
+}
+
+.withdraw {
+    background-color: rgb(129, 57, 180);
+    margin: 0px 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.balance {
+    background-color: rgb(114, 190, 37);
+    margin: 0px 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#bin {
+    margin-top: 50px;
+}
+
+.col-md-6 {
+    display: block;
+}
+
+.kati {
+    width: 580px;
+    margin-bottom: 10px;
 }
